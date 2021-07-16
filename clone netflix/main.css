@@ -1,0 +1,97 @@
+/*base*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --vermeljo: #e50914;
+  --preta: #141414;
+}
+
+body {
+  background: var(--preta);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+header .logo {
+  color: var(--vermeljo);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #ffff;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*conteudo*/
+.filme-principal {
+  font-size: 16px;
+  background: url('https://s.aficionados.com.br/imagens/naruto-season-3_cke.jpg');
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.filme-principal .TITULO {
+  font-size: 500%;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, 50);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.botao:hover {
+  background-color: white;
+  color: black;
+}
+.botao i {
+  margin: 8px;
+}
+.container {
+  margin-left: 20px;
+}
+.filme-principal .container {
+  width: 80%;
+}
+
+.box-filme {
+  display: block;
+  width: 100%;
+  right: 100%;
+}
+
+.carrosel-filme {
+  margin-top: 5px;
+  down: 500%;
+}
